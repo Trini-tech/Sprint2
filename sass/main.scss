@@ -83,13 +83,12 @@ $border-radius-pill: 10rem;
  
 $nav-tabs-link-active-border-color: #fff;
 
-// import bootstrap
-@import "../node_modules/bootstrap/scss/bootstrap";
-
+//imatges de pantalles
 .pantalla{
     padding-top: 20px;
 }
 
+//blue containers
 .container-blue-right{
     z-index: -1;
     background-color: #5266DF;
@@ -107,3 +106,33 @@ $nav-tabs-link-active-border-color: #fff;
     margin-top: -15rem;
     margin-left: -10rem;
 }
+
+
+//cards
+$card-border-width:0;
+$card-border-radius:0.5rem;
+
+.card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card-img-top{
+    width: 40% !important;
+    max-width: 60% !important;
+    min-width: 40% !important;
+}
+.card-body {
+    padding: 0 !important;
+  }
+
+// .card2{
+//     margin-top: 4rem !important;
+// }
+// .card3{
+//     margin-top: 8rem !important;
+// }
+
+
+
+// import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
