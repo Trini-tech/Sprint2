@@ -54,6 +54,35 @@ $btn-padding-y: 8px;
 //raidus pill
 $border-radius-pill: 10rem;
 
+//tabs
+
+  .nav-tabs{
+    margin-bottom: 0.5rem !important;
+    border-bottom: 2px solid transparent !important;
+  }
+
+  .nav-tabs .nav-link{
+    color: #97969E;
+    margin-bottom: 0 !important;
+    border: 0 !important;
+  }
+
+  .nav-tabs .nav-item-line .nav-link{
+    border-bottom: 2px solid #FB5859 !important;
+    color: #FB5859 !important;
+  }
+
+  .nav-tabs .nav-link:hover{
+    color: #FB5859;
+    border-bottom: 2px solid #FB5859 !important;
+  }
+
+  .col-md-12{
+    padding: 0 !important;
+  }
+ 
+$nav-tabs-link-active-border-color: #fff;
+
 // import bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -68,4 +97,13 @@ $border-radius-pill: 10rem;
     //width: 40rem;
     margin-top: -15rem;
     margin-left: 10rem; 
+}
+
+.container-blue-left{
+    z-index: -1;
+    background-color: #5266DF;
+    height: 20rem;
+    width: 40rem;
+    margin-top: -15rem;
+    margin-left: -10rem;
 }
