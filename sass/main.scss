@@ -1,0 +1,71 @@
+* {
+    margin: 0; //Fa que no hi hagi scroll horitzontal.
+    padding: 0;
+    box-sizing: border-box; //Fa que no hi hagi marges i paddings addicionals a les caixes.
+}
+
+//custom variables
+$primary: #5266DF;
+$secondary: #FB5859;
+$info: #F7F7F7;
+
+//navbar
+$navbar-light-hover-color: #FB5859;
+$navbar-light-active-color: #FB5859;
+
+.nav-item header{
+    padding: 8px 16px;
+    font-size: .9rem;
+}
+
+.navbar-nav{
+    width: 20rem;
+
+}
+.navbar .btn{
+    font-size: .9rem;
+}
+  
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+  } 
+
+
+//body
+body {
+    padding: 5rem 0 3rem 3rem;
+    overflow-x: hidden;
+}
+
+
+// import font family and custom styles
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+$font-family-base: 'Open Sans', sans-serif;
+$body-color: #97969E;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 400;
+$headings-font-weight: 500;
+
+// button style
+$btn-padding-x: 27px;
+$btn-padding-y: 8px;
+
+//raidus pill
+$border-radius-pill: 10rem;
+
+// import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.pantalla{
+    padding-top: 20px;
+}
+
+.container-blue-right{
+    z-index: -1;
+    background-color: #5266DF;
+    height: 20rem;
+    //width: 40rem;
+    margin-top: -15rem;
+    margin-left: 10rem; 
+}
