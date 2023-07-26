@@ -124,13 +124,28 @@ $card-border-radius:0.5rem;
     padding: 0 !important;
   }
 
-// .card2{
-//     margin-top: 4rem !important;
-// }
-// .card3{
-//     margin-top: 8rem !important;
-// }
+ .card2{
+     transform: translateY(2rem);
+ }
+ .card3{
+    transform: translateY(4rem);
+}
 
+//accordion
+.accordion-body, .accordion-button {
+    width: 30rem !important;
+}
+
+$accordion-body-padding-x: 2rem !important;
+$accordion-button-padding-x: 2rem !important;
+
+$accordion-icon-color: $primary;
+
+$accordion-icon-active-color: $secondary;
+$accordion-button-active-bg:#fff;
+
+$accordion-button-focus-border-color: 0;
+// $accordion-button-focus-color: $secondary;
 
 
 // import bootstrap
