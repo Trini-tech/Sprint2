@@ -8,6 +8,13 @@
 $primary: #5266DF;
 $secondary: #FB5859;
 $info: #F7F7F7;
+$dark: #242946;
+
+//body
+body {
+    padding: 5rem 0 0rem 0rem;
+    overflow-x: hidden;
+}
 
 //navbar
 $navbar-light-hover-color: #FB5859;
@@ -30,14 +37,6 @@ $navbar-light-active-color: #FB5859;
     border-color: transparent;
   } 
 
-
-//body
-body {
-    padding: 5rem 0 3rem 3rem;
-    overflow-x: hidden;
-}
-
-
 // import font family and custom styles
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 $font-family-base: 'Open Sans', sans-serif;
@@ -50,6 +49,8 @@ $headings-font-weight: 500;
 // button style
 $btn-padding-x: 27px;
 $btn-padding-y: 8px;
+
+$input-btn-padding-: 2rem;
 
 //raidus pill
 $border-radius-pill: 10rem;
@@ -94,7 +95,7 @@ $nav-tabs-link-active-border-color: #fff;
     background-color: #5266DF;
     height: 20rem;
     //width: 40rem;
-    margin-top: -15rem;
+    margin-top: -20rem;
     margin-left: 10rem; 
 }
 
